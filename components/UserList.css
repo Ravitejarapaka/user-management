@@ -1,0 +1,33 @@
+.user-list table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th, .user-list td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.user-list .btn1{
+    margin: 5px 10px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: rgb(87, 87, 248);
+    cursor: pointer;
+}
+
+.user-list .btn2{
+    margin: 5px 10px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: rgb(248, 87, 87);
+    cursor: pointer;
+}
+
+.edit-img{
+    width: 28px;
+}
+
+.delete-img{
+    width: 28px;
+}
