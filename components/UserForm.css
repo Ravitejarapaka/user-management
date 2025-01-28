@@ -1,0 +1,51 @@
+.user-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-form input{
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #acc;
+    font-family: "poppins";
+}
+
+.user-form input:focus{
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.addBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    margin-left: 95px;
+    font-family: "poppins";
+}
+
+.addBtn:hover{
+    background-color: #45a049;
+}
+
+.addBtn .add-icon{
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+}
